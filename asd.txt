@@ -1,0 +1,354 @@
+
+    <div>
+        {
+             data.data.map((users,index)=>{
+
+                <h1  key={index}>index</h1>
+                <p>{index+1}</p>
+                <p>{users.key}</p>
+                <p>{users.name}</p>
+                <p>{users.type}</p>
+             })
+        }
+    </div>
+
+
+---------------------------------
+
+
+
+ {
+            "type": "autocomplete",
+            "required": false,
+            "label": "Autocomplete",
+            "className": "form-control",
+            "name": "autocomplete-1680156640829-0",
+            "access": false,
+            "requireValidOption": false,
+            "values": [
+              {
+                "label": "Option 1",
+                "value": "option-1",
+                "selected": true
+              },
+              {
+                "label": "Option 2",
+                "value": "option-2",
+                "selected": false
+              },
+              {
+                "label": "Option 3",
+                "value": "option-3",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "type": "button",
+            "label": "Button",
+            "subtype": "button",
+            "className": "btn-default btn",
+            "name": "button-1680156643493-0",
+            "access": false,
+            "style": "default"
+          },
+          {
+            "type": "checkbox-group",
+            "required": false,
+            "label": "Checkbox Group",
+            "toggle": false,
+            "inline": false,
+            "name": "checkbox-group-1680156644527-0",
+            "access": false,
+            "other": false,
+            "values": [
+              {
+                "label": "Option 1",
+                "value": "option-1",
+                "selected": true
+              }
+            ]
+          },
+          {
+            "type": "date",
+            "required": false,
+            "label": "Date Field",
+            "className": "form-control",
+            "name": "date-1680156645660-0",
+            "access": false
+          },
+          {
+            "type": "file",
+            "required": false,
+            "label": "File Upload",
+            "className": "form-control",
+            "name": "file-1680156646542-0",
+            "access": false,
+            "subtype": "file",
+            "multiple": false
+          },
+          {
+            "type": "hidden",
+            "name": "hidden-1680156647610-0",
+            "access": false
+          },
+          {
+            "type": "number",
+            "required": false,
+            "label": "Number",
+            "className": "form-control",
+            "name": "number-1680156651574-0",
+            "access": false
+          },
+          {
+            "type": "radio-group",
+            "required": false,
+            "label": "Radio Group",
+            "inline": false,
+            "name": "radio-group-1680156654207-0",
+            "access": false,
+            "other": false,
+            "values": [
+              {
+                "label": "Option 1",
+                "value": "option-1",
+                "selected": false
+              },
+              {
+                "label": "Option 2",
+                "value": "option-2",
+                "selected": false
+              },
+              {
+                "label": "Option 3",
+                "value": "option-3",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "required": false,
+            "label": "Text Field",
+            "className": "form-control",
+            "name": "text-1680156656674-0",
+            "access": false,
+            "subtype": "text"
+          },
+          {
+            "type": "select",
+            "required": false,
+            "label": "Select",
+            "className": "form-control",
+            "name": "select-1680156658657-0",
+            "access": false,
+            "multiple": false,
+            "values": [
+              {
+                "label": "Option 1",
+                "value": "option-1",
+                "selected": true
+              },
+              {
+                "label": "Option 2",
+                "value": "option-2",
+                "selected": false
+              },
+              {
+                "label": "Option 3",
+                "value": "option-3",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "type": "paragraph",
+            "subtype": "p",
+            "label": "Paragraph",
+            "access": false
+          },
+          {
+            "type": "text",
+            "required": false,
+            "label": "Text Field",
+            "className": "form-control",
+            "name": "text-1680156662391-0",
+            "access": false,
+            "subtype": "text"
+          },
+          {
+            "type": "textarea",
+            "required": false,
+            "label": "Text Area",
+            "className": "form-control",
+            "name": "textarea-1680156663155-0",
+            "access": false,
+            "subtype": "textarea"
+          },
+  
+  
+          {
+            "type": "autocomplete",
+            "required": false,
+            "label": "Autocomplete",
+            "className": "form-control",
+            "name": "autocomplete-1680177733896-0",
+            "access": false,
+            "requireValidOption": false,
+            "values": [
+              {
+                "label": "Option 1",
+                "value": "option-1",
+                "selected": true
+              },
+              {
+                "label": "Option 2",
+                "value": "option-2",
+                "selected": false
+              },
+              {
+                "label": "Option 3",
+                "value": "option-3",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "type": "button",
+            "label": "Button",
+            "subtype": "button",
+            "className": "btn-default btn",
+            "name": "button-1680177734612-0",
+            "access": false,
+            "style": "default"
+          },
+          {
+            "type": "checkbox-group",
+            "required": false,
+            "label": "Checkbox Group",
+            "toggle": false,
+            "inline": false,
+            "name": "checkbox-group-1680177735878-0",
+            "access": false,
+            "other": false,
+            "values": [
+              {
+                "label": "Option 1",
+                "value": "option-1",
+                "selected": true
+              }
+            ]
+          },
+          {
+            "type": "date",
+            "required": false,
+            "label": "Date Field",
+            "className": "form-control",
+            "name": "date-1680177736645-0",
+            "access": false
+          },
+          {
+            "type": "file",
+            "required": false,
+            "label": "File Upload",
+            "className": "form-control",
+            "name": "file-1680177737511-0",
+            "access": false,
+            "subtype": "file",
+            "multiple": false
+          },
+          {
+            "type": "header",
+            "subtype": "h1",
+            "label": "Header",
+            "access": false
+          },
+          {
+            "type": "number",
+            "required": false,
+            "label": "Number",
+            "className": "form-control",
+            "name": "number-1680177740861-0",
+            "access": false
+          },
+          {
+            "type": "paragraph",
+            "subtype": "p",
+            "label": "Paragraph",
+            "access": false
+          },
+          {
+            "type": "hidden",
+            "name": "hidden-1680177741727-0",
+            "access": false
+          },
+          {
+            "type": "select",
+            "required": false,
+            "label": "Select",
+            "className": "form-control",
+            "name": "select-1680177744543-0",
+            "access": false,
+            "multiple": false,
+            "values": [
+              {
+                "label": "Option 1",
+                "value": "option-1",
+                "selected": true
+              },
+              {
+                "label": "Option 2",
+                "value": "option-2",
+                "selected": false
+              },
+              {
+                "label": "Option 3",
+                "value": "option-3",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "type": "radio-group",
+            "required": false,
+            "label": "Radio Group",
+            "inline": false,
+            "name": "radio-group-1680177743660-0",
+            "access": false,
+            "other": false,
+            "values": [
+              {
+                "label": "Option 1",
+                "value": "option-1",
+                "selected": false
+              },
+              {
+                "label": "Option 2",
+                "value": "option-2",
+                "selected": false
+              },
+              {
+                "label": "Option 3",
+                "value": "option-3",
+                "selected": false
+              }
+            ]
+          },
+          {
+            "type": "textarea",
+            "required": false,
+            "label": "Text Area",
+            "className": "form-control",
+            "name": "textarea-1680177746609-0",
+            "access": false,
+            "subtype": "textarea"
+          },
+          {
+            "type": "text",
+            "required": false,
+            "label": "Text Field",
+            "className": "form-control",
+            "name": "text-1680177745726-0",
+            "access": false,
+            "subtype": "text"
+          },

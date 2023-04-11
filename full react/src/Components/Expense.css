@@ -1,0 +1,19 @@
+.date{
+    text-align: center;
+    display:inline-block;
+    padding-left: 200px;
+
+}
+
+.title{
+    text-align: center;
+    display: inline-block;
+    padding-left: 200px;
+}
+
+.amount
+{
+    text-align: center;
+    display: inline-block;
+    padding-left: 200px;
+}
